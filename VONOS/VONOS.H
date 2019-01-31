@@ -1,16 +1,20 @@
 /*
-Class
-    Foam::VONOSLimiter
-
 Description
     Class with limiter function which returns the limiter for the
     VONOS differencing scheme based on r obtained from the LimiterFunc
     class.
 
     Used in conjunction with the template class LimitedScheme.
-
-SourceFiles
-    VONOS.C
+    
+    Reference:
+    @verbatim
+        "Development and assessment of a Variable-Order Non-oscillatory
+        Scheme for convection term discretization"
+        Varonos A.,
+        Bergeles G.,
+        International Journal for Numerical Methods in Fluids, 1998, 
+        26, N 1. pp. 1-16.
+    @endverbatim
 */
 
 #ifndef VONOS_H
